@@ -475,27 +475,54 @@
           </svg>
         </button>
         <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
+
         <form class="modal-form">
-          <input
-            type="text"
-            class="form-input"
-            required
-            name="second-name"
-            placeholder="Ім'я"
-          />
-          <input
-            type="tel"
-            class="form-input"
-            name="user-tel"
-            placeholder="Телефон"
-          />
-          <input
-            type="email"
-            class="form-input"
-            required
-            name="user-email"
-            placeholder="Пошта"
-          />
+          <div class="input-field">
+            <label for="user-name" class="input-title">Ім'я</label>
+            <input
+              type="text"
+              class="form-input"
+              required
+              name="user-name"
+              placeholder=" "
+              id="user-name"
+            />
+          </div>
+
+          <div class="input-field">
+            <label for="user-tel" class="input-title">Телефон</label>
+            <input
+              type="tel"
+              class="form-input"
+              name="user-tel"
+              placeholder=" "
+              id="user-tel"
+            />
+          </div>
+
+          <div class="input-field">
+            <label for="user-email" class="input-title">Пошта</label>
+            <input
+              type="email"
+              class="form-input"
+              required
+              name="user-email"
+              placeholder=" "
+              id="user-email"
+            />
+          </div>
+
+          <div class="input-field">
+            <label for="user-comment" class="input-title">Коментар</label>
+            <textarea
+              name="user-commen"
+              id="user-comment"
+              placeholder="Введіть текст"
+              class="modal-text"
+            ></textarea>
+          </div>
+
+          <button type="submit">Відправити</button>
         </form>
       </div>
     </div>
