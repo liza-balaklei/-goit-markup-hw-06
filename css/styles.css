@@ -865,6 +865,7 @@ li {
 
 .online-wrap {
   display: flex;
+  /* justify-content: center; */
 }
 
 .online-input {
@@ -879,6 +880,9 @@ li {
 }
 
 .online-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 200px;
   height: 50px;
   padding: 10px 28px;
